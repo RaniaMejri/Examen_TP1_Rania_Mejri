@@ -1,7 +1,8 @@
-int somme(int a, int b);
+void calcul(int a, int b);
 
 void main() {
     int a = 2, b = 3;
-    printf("%d", somme(a, b));
+    calcul(a, b);
 }
+
 
