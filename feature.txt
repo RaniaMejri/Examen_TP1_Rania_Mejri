@@ -1,7 +1,14 @@
-int somme(int a ,int b){
- return a+b;
- }
-int produit(int a , int b){
-return a*b;
+int somme(int a, int b) {
+    return a + b;
 }
+
+int produit(int a, int b) {
+    return a * b;
+}
+
+void calcul(int a, int b) {
+    printf("La somme est %d \n", somme(a, b));
+    printf("Le produit est %d \n", produit(a, b));
+}
+
 
